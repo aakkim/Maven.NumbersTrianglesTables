@@ -3,7 +3,13 @@ package io.zipcoder.microlabs.mastering_loops;
 
 public class NumberUtilities {
     public static String getEvenNumbers(int start, int stop) {
-        return null;
+        String evenNum = "";
+        for(int i=start; i<stop; i++) {
+            if(i%2==0); {
+                evenNum += i;
+            }
+        }
+        return evenNum;
     }
 
 
